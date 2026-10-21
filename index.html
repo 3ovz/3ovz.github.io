@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سجل البطولات الوطني | المملكة العربية السعودية</title>
+<meta name="description" content="السجل الوطني التوثيقي لإنجازات المملكة العربية السعودية العسكرية: عاصفة الحزم، تحرير الكويت ودول الخليج، الدفاع عن الوطن، وأول اعتراض لصاروخ كروز في العالم.">
+<meta name="theme-color" content="#04120d">
+<meta name="color-scheme" content="dark">
+<meta name="author" content="ABDULAZIZ KHALID">
+<meta name="copyright" content="© 2026 ABDULAZIZ KHALID — جميع الحقوق محفوظة">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:site_name" content="سجل البطولات الوطني">
+<meta property="og:title" content="سجل البطولات الوطني | المملكة العربية السعودية">
+<meta property="og:description" content="سجل وثائقي لإنجازات القوات المسلحة السعودية في الدفاع عن الوطن وأمن المنطقة.">
+<meta property="og:image" content="assets/img/f15.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="سجل البطولات الوطني | المملكة العربية السعودية">
+<meta name="twitter:description" content="سجل وثائقي لإنجازات القوات المسلحة السعودية في الدفاع عن الوطن وأمن المنطقة.">
+<meta name="twitter:image" content="assets/img/f15.jpg">
+<link rel="icon" type="image/svg+xml" href="assets/img/emblem-green.svg">
+<link rel="preload" as="image" href="assets/img/f15.jpg" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "سجل البطولات الوطني",
+  "alternateName": "سجل البطولات",
+  "inLanguage": "ar",
+  "description": "السجل الوطني التوثيقي لإنجازات المملكة العربية السعودية العسكرية.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "سجل البطولات الوطني",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "assets/img/emblem-green.svg"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- ===================== INTRO SPLASH ===================== -->
+<div class="intro" id="intro" role="dialog" aria-modal="true" aria-label="شاشة الدخول">
+  <div class="intro__bg" aria-hidden="true">
+    <img src="assets/img/f15.jpg" alt="" width="1920" height="1282">
+  </div>
+  <div class="intro__pattern" aria-hidden="true"></div>
+
+  <div class="intro__inner">
+    <p class="intro__eyebrow">المملكة العربية السعودية</p>
+    <h1 class="intro__title">سجل <span class="gold-text">البطولات</span></h1>
+    <p class="intro__tagline">أمن الوطن عهد · وحمايته شرف · والوفاء له موقف</p>
+
+    <button class="intro__emblem" id="introEnter" aria-label="اضغط على شعار السيفين والنخلة للدخول إلى الموقع">
+      <img class="emblem" src="assets/img/emblem-green.svg" alt="شعار المملكة العربية السعودية: سيفان ونخلة" width="610" height="662">
+      <span class="intro__emblem-hint">اضغط على الشعار للدخول</span>
+    </button>
+
+    <div class="intro__credit">
+      <span class="intro__label">تصميم وتطوير</span>
+      <strong class="intro__name" dir="ltr">ABDULAZIZ KHALID</strong>
+    </div>
+  </div>
+
+  <span class="intro__corner intro__corner--tr" aria-hidden="true"></span>
+  <span class="intro__corner intro__corner--bl" aria-hidden="true"></span>
+</div>
+
+<noscript><style>.intro{display:none!important}.reveal{opacity:1!important;transform:none!important}</style></noscript>
+
+<!-- ===================== OFFICIAL BAR ===================== -->
+<div class="official-bar">
+  <div class="container official-bar__inner">
+    <div class="official-bar__id">
+      <img src="assets/img/emblem-gold.svg" alt="" width="17" height="19" aria-hidden="true">
+      <span class="official-bar__state">المملكة العربية السعودية</span>
+      <span class="official-bar__sep" aria-hidden="true"></span>
+      <span class="official-bar__record">السجل الوطني للبطولات العسكرية</span>
+    </div>
+    <div class="official-bar__meta">
+      <span class="official-bar__pill">إصدار 2026</span>
+      <span class="official-bar__date">آخر تحديث: 21 أكتوبر 2026</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="سجل البطولات - الصفحة الرئيسية">
+      <img class="brand__crest" src="assets/img/emblem-gold.svg" alt="شعار المملكة العربية السعودية" width="42" height="46">
+      <span class="brand__text">
+        <strong>سجل البطولات</strong>
+        <small>المملكة العربية السعودية</small>
+      </span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="التنقل الرئيسي">
+      <a href="#top" class="is-active">الرئيسية</a>
+      <a href="#history">المسيرة</a>
+      <a href="#storm">عاصفة الحزم</a>
+      <a href="#gulf">تحرير الخليج</a>
+      <a href="#cruise">الدفاع الجوي</a>
+      <a href="#fleet">المنظومات</a>
+      <a href="#gallery">المعرض</a>
+    </nav>
+
+    <a href="#cruise" class="btn btn--gold btn--sm nav__cta">الإنجاز العالمي</a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" aria-label="المقدمة">
+  <div class="hero__bg">
+    <img src="assets/img/f15.jpg" alt="مقاتلة F-15SA تابعة للقوات الجوية الملكية السعودية في طلعة جوية" width="1920" height="1282" fetchpriority="high">
+  </div>
+  <div class="hero__veil"></div>
+  <div class="hero__particles" id="particles" aria-hidden="true"></div>
+
+  <div class="hero__ornament" aria-hidden="true">
+    <span></span><i></i><span></span>
+  </div>
+
+  <div class="hero__inner container">
+    <p class="eyebrow reveal">المملكة العربية السعودية · سجل البطولات</p>
+    <h1 class="hero__title reveal" data-delay="80">
+      أمن الوطن <span class="gold-text">عهد</span><br>
+      وحمايته <span class="gold-text">شرف</span><br>
+      والوفاء له <span class="gold-text">موقف</span>
+    </h1>
+    <p class="hero__sub hero__article reveal" data-delay="160">
+      «الدفاع عن العقيدة الإسلامية، والمجتمع، والوطن، هو مسؤولية كل مواطن، ويحدد النظام الوسائل الكفيلة بذلك.»
+      <span class="hero__article-src">المادة الرابعة والثلاثون · النظام الأساسي للحكم</span>
+    </p>
+    <div class="hero__actions reveal" data-delay="240">
+      <a href="#history" class="btn btn--gold">استكشف المسيرة
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#cruise" class="btn btn--ghost">الإنجاز العالمي</a>
+    </div>
+    <p class="hero__badge reveal" data-delay="300">
+      <span class="dot"></span> 26 مارس 2015 — انطلاق عملية عاصفة الحزم
+    </p>
+  </div>
+
+  <div class="hero__stats">
+    <div class="container hero__stats-inner">
+      <div class="hstat"><strong>1932</strong><span>سنة التأسيس</span></div>
+      <div class="hstat"><strong>+10</strong><span>دول في التحالف العربي</span></div>
+      <div class="hstat"><strong>24/7</strong><span>رصد وجاهزية دائمة</span></div>
+      <div class="hstat"><strong>الأولى</strong><span>عالميًا في اعتراض الكروز</span></div>
+    </div>
+  </div>
+
+  <a href="#history" class="scroll-cue" aria-label="انتقل إلى المسيرة">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===================== ABOUT / MANDATE ===================== -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="about__head reveal">
+      <p class="eyebrow">عن السجل</p>
+      <h2 class="section__title">ذاكرةٌ وطنية <span class="gold-text">موثّقة</span></h2>
+      <p class="section__sub">
+        سجلٌ وطني يوثّق محطات القوات المسلحة السعودية وإنجازاتها في الدفاع عن الوطن وحماية أمن المنطقة،
+        بترتيبٍ زمني ومراجعَ معلنة.
+      </p>
+    </div>
+
+    <div class="about__grid">
+      <article class="about__card reveal">
+        <span class="about__num">01</span>
+        <h3>النطاق</h3>
+        <p>من توحيد المملكة عام 1932 إلى اليوم: محطات البناء والدفاع في مسارٍ واحد.</p>
+      </article>
+      <article class="about__card reveal" data-delay="60">
+        <span class="about__num">02</span>
+        <h3>المنهجية</h3>
+        <p>توثيق زمني للأحداث، يفصل بين الوقائع والأرقام، ويُحيل إلى مصادره.</p>
+      </article>
+      <article class="about__card reveal" data-delay="120">
+        <span class="about__num">03</span>
+        <h3>المصادر</h3>
+        <p>الرجوع إلى الجهات الرسمية والوكالات المعتمدة، وإعلان المراجع في نهاية السجل.</p>
+      </article>
+      <article class="about__card reveal" data-delay="180">
+        <span class="about__num">04</span>
+        <h3>التحديث</h3>
+        <p>مراجعة دورية للمحتوى والأرقام، مع تاريخ آخر تحديث وإصدار موثّق.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HISTORY / TIMELINE ===================== -->
+<section class="section" id="history">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">المسيرة التاريخية</p>
+      <h2 class="section__title">مسيرةٌ من <span class="gold-text">المجد</span></h2>
+      <p class="section__sub">محطاتٌ فارقة صنعت تاريخ المملكة العسكري، من توحيد الوطن إلى حماية أمن المنطقة.</p>
+    </header>
+
+    <div class="timeline">
+      <article class="tl-item reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <span class="tl-year">1932</span>
+          <h3>توحيد المملكة</h3>
+          <p>تأسيس الدولة السعودية الحديثة على يد الملك عبدالعزيز آل سعود، ووضع اللبنة الأولى لقوات مسلحة تحمي الوطن وحدوده.</p>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <span class="tl-year">1984</span>
+          <h3>قوة درع الجزيرة</h3>
+          <p>تأسيس قوة درع الجزيرة التابعة لمجلس التعاون لدول الخليج العربية، لتكون ركيزةً للأمن الجماعي الخليجي.</p>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <span class="tl-year">1990 — 1991</span>
+          <h3>درع الصحراء وتحرير الكويت</h3>
+          <p>احتضنت المملكة قوات التحالف على أراضيها، وشاركت قواتها المسلحة في تحرير دولة الكويت الشقيقة في 26 فبراير 1991.</p>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <span class="tl-year">14 مارس 2011</span>
+          <h3>تحرير البحرين</h3>
+          <p>لبّت قوات درع الجزيرة نداء الأشقاء في مملكة البحرين، وأمّنت المنشآت الحيوية وأعادت الاستقرار، تأكيدًا أن أمن الخليج كلٌّ لا يتجزأ.</p>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <span class="tl-year">26 مارس 2015</span>
+          <h3>عاصفة الحزم</h3>
+          <p>انطلاق التحالف العربي بقيادة المملكة استجابةً لنداء الشرعية اليمنية، وتعطيل القدرات التي تهدّد أمن الخليج والملاحة الدولية.</p>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <span class="tl-year">21 أبريل 2015</span>
+          <h3>إعادة الأمل</h3>
+          <p>انتقالٌ إلى مسار سياسي وإنساني شامل: حماية المدنيين، دعم الشرعية، وإعادة بناء مؤسسات الدولة اليمنية.</p>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <span class="tl-year">2017 — 2022</span>
+          <h3>تطوير الدفاع الجوي</h3>
+          <p>تعزيز شبكة الدفاع الجوي بمنظومات متعددة الطبقات، وتوسيع القدرة على رصد واعتراض الصواريخ الباليستية وصواريخ الكروز.</p>
+        </div>
+      </article>
+
+      <article class="tl-item reveal">
+        <div class="tl-dot" aria-hidden="true"></div>
+        <div class="tl-card">
+          <span class="tl-year">2022 — اليوم</span>
+          <h3>الدفاع والتنمية</h3>
+          <p>استمرار حماية الحدود والمنشآت الحيوية، بالتوازي مع توطين الصناعات العسكرية وبناء قدرات وطنية مستدامة.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STORM ===================== -->
+<section class="section feature" id="storm">
+  <div class="container feature__grid">
+    <div class="feature__media reveal">
+      <figure class="frame">
+        <img src="assets/img/apache-saudi.jpg" alt="مروحية أباتشي AH-64D السعودية على أرض الميدان قبيل الإقلاع" width="1179" height="1574" loading="lazy">
+        <figcaption>إسناد ناري · أباتشي AH-64D في مهمة ميدانية</figcaption>
+      </figure>
+      <div class="frame__tag">2015</div>
+    </div>
+
+    <div class="feature__body reveal" data-delay="80">
+      <p class="eyebrow">القرار الحاسم</p>
+      <h2 class="section__title">عاصفة الحزم:<br><span class="gold-text">حزمٌ يحمي الوطن</span></h2>
+      <p>
+        في فجر السادس والعشرين من مارس 2015، أعلنت المملكة العربية السعودية انطلاق عملية «عاصفة الحزم»
+        بقيادة قوات التحالف العربي، استجابةً لنداء الشرعية اليمنية، وانطلاقًا من مسؤوليتها في حماية أمن
+        الخليج والمنطقة والممرات الملاحية الدولية.
+      </p>
+      <ul class="ticks">
+        <li>تحالف عربي واسع ضمّ أكثر من عشر دول شقيقة وصديقة.</li>
+        <li>تعطيل القدرات الصاروخية والجوية التي تهدّد المدن والمنشآت.</li>
+        <li>تأمين الملاحة في مضيق باب المندب والبحر الأحمر.</li>
+        <li>دعم الشرعية واستعادة مؤسسات الدولة اليمنية.</li>
+      </ul>
+      <div class="note">
+        <strong>إعادة الأمل</strong>
+        <span>في 21 أبريل 2015 تحوّل المسار إلى دعم سياسي وإنساني وإعمار، مع استمرار حماية الوطن وحدوده.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GULF ===================== -->
+<section class="section feature feature--reverse" id="gulf">
+  <div class="container feature__grid">
+    <div class="feature__media reveal">
+      <figure class="frame">
+        <img src="assets/img/soldier.jpg" alt="جندي من القوات المسلحة السعودية في الصحراء خلال حقبة تحرير الكويت" width="1890" height="2840" loading="lazy">
+        <figcaption>وفاءٌ للجيرة · عهدٌ لا يُنسى</figcaption>
+      </figure>
+      <div class="frame__tag frame__tag--alt">1991</div>
+    </div>
+
+    <div class="feature__body reveal" data-delay="80">
+      <p class="eyebrow">أمن الخليج</p>
+      <h2 class="section__title">تحرير الكويت<br><span class="gold-text">ودول الخليج</span></h2>
+      <p>
+        لم تكن المملكة يومًا جارةً على الورق؛ فحين تعرّضت دولة الكويت الشقيقة للاحتلال في 1990،
+        فتحت المملكة أراضيها لقوات التحالف الدولي في عملية «درع الصحراء»، ثم شاركت قواتها المسلحة
+        بفاعلية في «عاصفة الصحراء» حتى إعلان التحرير في 26 فبراير 1991.
+      </p>
+      <ul class="ticks">
+        <li>احتضان قوات التحالف وتأمين خطوط الإمداد واللوجستيات.</li>
+        <li>مشاركة القوات البرية والجوية السعودية في عمليات التحرير.</li>
+        <li>دور محوري في قوة درع الجزيرة لحماية أمن دول المجلس.</li>
+        <li>14 مارس 2011: درع الجزيرة يلبّي نداء البحرين ويؤمّن منشآتها الحيوية.</li>
+        <li>مبدأ ثابت: أمن الخليج كلٌّ لا يتجزأ.</li>
+      </ul>
+      <div class="mini-stats">
+        <div><strong>26 فبراير</strong><span>يوم تحرير الكويت</span></div>
+        <div><strong>1991</strong><span>عام النصر</span></div>
+        <div><strong>2011</strong><span>تحرير البحرين</span></div>
+        <div><strong>6</strong><span>دول خليجية في منظومة أمن واحدة</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MINISTRIES ===================== -->
+<section class="section ministries" id="ministries">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">جناحا الوطن</p>
+      <h2 class="section__title">وزارة الدفاع <span class="gold-text">والحرس الوطني</span></h2>
+      <p class="section__sub">مؤسستان شقيقتان تتكاملان في حماية الوطن وصون مكتسباته، من جيش التوحيد إلى درع الحاضر.</p>
+    </header>
+
+    <div class="ministry-grid">
+      <article class="ministry-card reveal">
+        <div class="ministry-card__head">
+          <span class="ministry-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6 3l6 3 6-3v7c0 4.6-3.1 7.6-6 9-2.9-1.4-6-4.4-6-9V3Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 11.5l2 2 4-4.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div>
+            <h3>وزارة الدفاع</h3>
+            <span>القوات المسلحة السعودية</span>
+          </div>
+        </div>
+        <p class="ministry-card__lead">
+          سيف الوطن ودرعه؛ تجمع القوات البرية والجوية والبحرية والدفاع الجوي وقوة الصواريخ الاستراتيجية،
+          وتقف في الصف الأول دفاعًا عن السيادة والأمن الإقليمي.
+        </p>
+        <ul class="ticks">
+          <li>مشاركة القوات السعودية في حرب فلسطين 1948 ومساندة الجبهات العربية في 1967 و1973.</li>
+          <li>احتضان قوات التحالف والمشاركة في تحرير الكويت 1991.</li>
+          <li>قيادة التحالف العربي في عاصفة الحزم وإعادة الأمل 2015.</li>
+          <li>صد الصواريخ الباليستية والطائرات المسيّرة وصواريخ الكروز.</li>
+          <li>تأمين الممرات الملاحية في البحر الأحمر وباب المندب.</li>
+        </ul>
+      </article>
+
+      <article class="ministry-card reveal" data-delay="90">
+        <div class="ministry-card__head">
+          <span class="ministry-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 5.6l1.8 4.1 4.4.5-3.3 3 1 4.4-3.9-2.3-3.9 2.3 1-4.4-3.3-3 4.4-.5L12 5.6Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          </span>
+          <div>
+            <h3>وزارة الحرس الوطني</h3>
+            <span>الحصن الأمين للوطن</span>
+          </div>
+        </div>
+        <p class="ministry-card__lead">
+          قوة عسكرية نظامية ذات تاريخٍ يمتد إلى جيش التوحيد؛ تساند القوات المسلحة، وتحمي الأمن الداخلي
+          والحدود، وتقف مع الأشقاء في الملمات.
+        </p>
+        <ul class="ticks">
+          <li>جذورها في جيش التوحيد بقيادة الملك عبدالعزيز، وتحوّلها إلى الحرس الوطني عام 1955.</li>
+          <li>تحوّلت إلى وزارة مستقلة عام 2013 ضمن مسيرة التطوير الشاملة.</li>
+          <li>مشاركة فاعلة في تحرير الكويت 1991 وعمليات عاصفة الحزم وإعادة الأمل.</li>
+          <li>حماية المنشآت الحيوية والأمن الداخلي ومكافحة الإرهاب.</li>
+          <li>تأمين الحج والمشاعر المقدسة والمناسبات الكبرى.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOMELAND DEFENSE ===================== -->
+<section class="section" id="defense">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">حماية الوطن</p>
+      <h2 class="section__title">درعٌ في وجه <span class="gold-text">ميليشيا الحوثي</span></h2>
+      <p class="section__sub">جاهزيةٌ دائمة ويقظةٌ لا تنام، لحماية الأرض والإنسان والمنشآت الحيوية.</p>
+    </header>
+
+    <div class="cards cards--3">      <article class="card reveal">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>اعتراض الصواريخ والمسيّرات</h3>
+        <p>منظومات دفاع جوي متعددة الطبقات تتعامل مع الصواريخ الباليستية والطائرات المسيّرة قبل وصولها إلى أهدافها.</p>
+      </article>
+
+      <article class="card reveal" data-delay="80">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M6 20V9l6-4 6 4v11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 20v-5h4v5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        </div>
+        <h3>تأمين الحدود الجنوبية</h3>
+        <p>انتشار ميداني متواصل ومراقبة تقنية للحدود، لإحباط محاولات التسلل والتهريب وحماية القرى والمدن الحدودية.</p>
+      </article>
+
+      <article class="card reveal" data-delay="160">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/><circle cx="12" cy="12" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="1.8" fill="currentColor"/></svg>
+        </div>
+        <h3>حماية المنشآت الحيوية</h3>
+        <p>تغطية دفاعية شاملة للمنشآت النفطية والمطارات والموانئ، لضمان استمرارية الاقتصاد وأمن المجتمع.</p>
+      </article>
+    </div>
+
+    <div class="tally reveal">
+      <div class="tally__intro">
+        <p class="eyebrow">حصيلة التصدي</p>
+        <h3>أرقامٌ من سجل اليقظة</h3>
+        <p>إحصاءات معلنة للتحالف العربي عن التهديدات الجوية التي أُطلقت باتجاه المملكة، واعتراضات حديثة.</p>
+      </div>
+      <div class="tally__grid">
+        <div class="tally__item"><strong data-count="430">430</strong><span>صاروخًا باليستيًا</span></div>
+        <div class="tally__item"><strong data-count="851">851</strong><span>طائرة مسيّرة معادية</span></div>
+        <div class="tally__item"><strong data-count="1281">1281</strong><span>تهديدًا جوّيًا تم رصده</span></div>
+        <div class="tally__item"><strong>6</strong><span>صواريخ في هجوم واحد · سبتمبر 2026</span></div>
+      </div>
+      <p class="tally__note">* الإحصاء التراكمي وفق ما أعلنه التحالف العربي (ديسمبر 2021)، مع إعلانات اعتراضات لاحقة.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CRUISE MISSILE ===================== -->
+<section class="cruise" id="cruise">
+  <div class="cruise__pattern" aria-hidden="true"></div>
+  <div class="container cruise__grid">
+    <div class="cruise__body reveal">
+      <span class="badge-gold">إنجازٌ عالميّ</span>
+      <h2 class="cruise__title">أول دولة في العالم<br><span class="gold-text">تعترض صاروخ كروز</span></h2>
+      <p class="cruise__lead">
+        سجّلت المملكة العربية السعودية سابقةً عالمية في التصدي لصواريخ الكروز، حين نجحت وسائل دفاعها الجوي
+        في رصد وتتبّع واعتراض صواريخ كروز أطلقتها ميليشيا الحوثي باتجاه المدن والمنشآت الحيوية؛
+        لتكون أول دولة في العالم تحقّق اعتراضًا عمليًا لصاروخ كروز في بيئة قتال حقيقية.
+      </p>
+
+      <div class="cruise__points">
+        <div class="cpoint">
+          <span class="cpoint__num">01</span>
+          <div><strong>رصد مبكر</strong><p>شبكة رادارات متكاملة ترصد الأهداف منخفضة الارتفاع وسريعة المناورة.</p></div>
+        </div>
+        <div class="cpoint">
+          <span class="cpoint__num">02</span>
+          <div><strong>تتبّع لحظي</strong><p>أنظمة قيادة وسيطرة تربط الرادار بالمنصات في زمن استجابة قصير جدًا.</p></div>
+        </div>
+        <div class="cpoint">
+          <span class="cpoint__num">03</span>
+          <div><strong>اعتراض دقيق</strong><p>منظومات باتريوت وثاد وغيرها تتعامل مع التهديد قبل بلوغه الهدف.</p></div>
+        </div>
+        <div class="cpoint">
+          <span class="cpoint__num">04</span>
+          <div><strong>حماية المدن</strong><p>إنقاذ الأرواح وصون المنشآت الحيوية في مواجهة هجمات عابرة للحدود.</p></div>
+        </div>
+      </div>
+
+      <p class="cruise__note">* الإنجاز مُوثَّق في البيانات الرسمية لوزارة الدفاع السعودية.</p>
+    </div>
+
+    <div class="cruise__media reveal" data-delay="100">
+      <div class="radar" aria-hidden="true">
+        <span class="radar__ring r1"></span>
+        <span class="radar__ring r2"></span>
+        <span class="radar__ring r3"></span>
+        <span class="radar__sweep"></span>
+        <span class="radar__core"></span>
+      </div>
+      <figure class="frame frame--tall">
+        <img src="assets/img/patriot.jpg" alt="منصة إطلاق صواريخ باتريوت للدفاع الجوي في الصحراء" width="2810" height="1900" loading="lazy">
+        <figcaption>منظومة باتريوت · درع المدن</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SPOKESMAN ===================== -->
+<section class="section spokesman" id="spokesman">
+  <div class="container spokesman__grid">
+    <div class="spokesman__media reveal">
+      <figure class="portrait">
+        <img src="assets/img/spokesman.jpg" alt="اللواء الركن تركي المالكي، المتحدث الرسمي للقوات المشتركة" width="600" height="431" loading="lazy">
+        <figcaption>
+          <strong>اللواء الركن تركي المالكي</strong>
+          <span>المتحدث الرسمي للقوات المشتركة</span>
+        </figcaption>
+      </figure>
+      <span class="portrait__deco" aria-hidden="true"></span>
+    </div>
+
+    <div class="spokesman__body reveal" data-delay="80">
+      <p class="eyebrow">صوت الميدان</p>
+      <h2 class="section__title">كلماتٌ <span class="gold-text">تُروى</span></h2>
+      <p class="spokesman__lead">
+        صوتٌ يعرفُه الميدان، ولسانٌ حمل رسالة القوات المشتركة إلى العالم؛
+        كلماتٌ قليلة، لكنها تختصر موقف وطنٍ لا يغضب إلا حين تُمسّ سيادته.
+      </p>
+
+      <blockquote class="bigquote">
+        <p>«نحن كسعوديين قد نسامح، ولكن لا ننسى..<br>
+          لا نغضب.. لا نغضب.. <span class="gold-text">وإن غضبنا أوجعنا</span>.»</p>
+        <cite>— اللواء الركن تركي المالكي</cite>
+      </blockquote>
+
+      <ul class="quotes" aria-label="من كلماته المشهورة">
+        <li>«قد نسامح.. ولكن لا ننسى.»</li>
+        <li>«لا نغضب.. وإن غضبنا أوجعنا.»</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STATS ===================== -->
+<section class="stats">
+  <div class="container stats__grid">
+    <div class="stat reveal">
+      <strong class="stat__num" data-count="1932">1932</strong>
+      <span class="stat__label">سنة تأسيس المملكة</span>
+    </div>
+    <div class="stat reveal" data-delay="80">
+      <strong class="stat__num"><span class="plus">+</span><span data-count="10">10</span></strong>
+      <span class="stat__label">دول في التحالف العربي</span>
+    </div>
+    <div class="stat reveal" data-delay="160">
+      <strong class="stat__num">24/7</strong>
+      <span class="stat__label">رصد وجاهزية دائمة</span>
+    </div>
+    <div class="stat reveal" data-delay="240">
+      <strong class="stat__num stat__num--sm">الأولى عالميًا</strong>
+      <span class="stat__label">في اعتراض صاروخ كروز</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FLEET / EQUIPMENT ===================== -->
+<section class="section" id="fleet">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">المنظومات والمعدات</p>
+      <h2 class="section__title">صقور في السماء <span class="gold-text">وأسود على الأرض</span></h2>
+      <p class="section__sub">منظومات جوية ودفاعية وبرية متكاملة، تُشغّلها كفاءات سعودية مدرّبة على أعلى مستوى.</p>
+    </header>
+
+    <div class="tabs reveal" role="tablist" aria-label="تصنيف المنظومات">
+      <button class="tab is-active" data-filter="all" role="tab" aria-selected="true">الكل</button>
+      <button class="tab" data-filter="air" role="tab" aria-selected="false">القوات الجوية</button>
+      <button class="tab" data-filter="defense" role="tab" aria-selected="false">الدفاع الجوي</button>
+      <button class="tab" data-filter="land" role="tab" aria-selected="false">القوات البرية</button>
+    </div>
+
+    <div class="eq-grid" id="eqGrid">
+      <article class="eq-card reveal" data-cat="air">
+        <div class="eq-card__img"><img src="assets/img/f15.jpg" alt="مقاتلة F-15SA السعودية" width="1600" height="1068" loading="lazy"></div>
+        <div class="eq-card__body">
+          <span class="eq-card__cat">القوات الجوية</span>
+          <h3>F-15SA</h3>
+          <p>مقاتلة متعددة المهام بقدرات ضربة بعيدة المدى ورادار حديث، عمود فقري للسيادة الجوية.</p>
+        </div>
+      </article>
+
+      <article class="eq-card reveal" data-cat="air" data-delay="70">
+        <div class="eq-card__img"><img src="assets/img/typhoon.jpg" alt="مقاتلة يوروفايتر تايفون تابعة للقوات الجوية الملكية السعودية" width="1024" height="683" loading="lazy"></div>
+        <div class="eq-card__body">
+          <span class="eq-card__cat">القوات الجوية</span>
+          <h3>يوروفايتر تايفون</h3>
+          <p>مقاتلة تفوّق جوي عالية الأداء، تعزز قدرة الردع والاعتراض السريع.</p>
+        </div>
+      </article>
+
+      <article class="eq-card reveal" data-cat="air" data-delay="140">
+        <div class="eq-card__img"><img src="assets/img/f15b.jpg" alt="طائرة التزويد بالوقود جوًا A330 MRTT مع مقاتلات سعودية" width="1600" height="1068" loading="lazy"></div>
+        <div class="eq-card__body">
+          <span class="eq-card__cat">الاستدامة الجوية</span>
+          <h3>A330 MRTT</h3>
+          <p>تزويد بالوقود جوًا ونقل استراتيجي، يمنح العمليات الجوية مدىً وتحملًا أطول.</p>
+        </div>
+      </article>
+
+      <article class="eq-card reveal" data-cat="defense" data-delay="210">
+        <div class="eq-card__img"><img src="assets/img/patriot.jpg" alt="منصة إطلاق منظومة باتريوت للدفاع الجوي" width="2810" height="1900" loading="lazy"></div>
+        <div class="eq-card__body">
+          <span class="eq-card__cat">الدفاع الجوي</span>
+          <h3>باتريوت PAC-3</h3>
+          <p>اعتراض الصواريخ الباليستية وصواريخ الكروز، وحماية المدن والمنشآت الاستراتيجية.</p>
+        </div>
+      </article>
+
+      <article class="eq-card reveal" data-cat="defense" data-delay="280">
+        <div class="eq-card__img"><img src="assets/img/thaad.jpg" alt="إطلاق صاروخ منظومة ثاد للدفاع الجوي" width="1500" height="1200" loading="lazy"></div>
+        <div class="eq-card__body">
+          <span class="eq-card__cat">الدفاع الجوي</span>
+          <h3>ثاد THAAD</h3>
+          <p>طبقة دفاع عن الارتفاعات العالية والمسافات البعيدة، ضمن شبكة متعددة المستويات.</p>
+        </div>
+      </article>
+
+      <article class="eq-card reveal" data-cat="land" data-delay="350">
+        <div class="eq-card__img"><img src="assets/img/apache.jpg" alt="مروحية أباتشي AH-64 تابعة لطيران القوات البرية السعودية" width="800" height="536" loading="lazy"></div>
+        <div class="eq-card__body">
+          <span class="eq-card__cat">القوات البرية</span>
+          <h3>أباتشي AH-64</h3>
+          <p>مروحية هجومية تقدم إسنادًا ناريًا قريبًا دقيقًا لقوات الميدان.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== QUOTE ===================== -->
+<section class="quote">
+  <div class="quote__bg" aria-hidden="true"><img src="assets/img/riyadh.jpg" alt="" width="1600" height="1066" loading="lazy"></div>
+  <div class="container quote__inner reveal">
+    <span class="quote__mark" aria-hidden="true">”</span>
+    <p class="quote__text">سماءٌ لا يطال غمامها<br><span class="gold-text">وأرضٌ لا يمسّ ثراها</span></p>
+    <span class="quote__line" aria-hidden="true"></span>
+    <p class="quote__caption">من مبادئ القوات المسلحة السعودية</p>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section class="section" id="gallery">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">من الميدان</p>
+      <h2 class="section__title">صورٌ <span class="gold-text">تحكي البطولة</span></h2>
+      <p class="section__sub">لقطات من سلاح الجو والدفاع الجوي والقوات البرية.</p>
+    </header>
+
+    <div class="gallery" id="gallery-grid">
+      <button class="gal gal--wide reveal" data-full="assets/img/f15.jpg" data-caption="مقاتلة F-15SA في سماء المملكة">
+        <img src="assets/img/f15.jpg" alt="مقاتلة F-15SA سعودية" width="1600" height="1068" loading="lazy">
+        <span class="gal__cap">سيادة جوية</span>
+      </button>
+      <button class="gal reveal" data-full="assets/img/patriot.jpg" data-caption="منظومة باتريوت للدفاع الجوي">
+        <img src="assets/img/patriot.jpg" alt="منظومة باتريوت" width="2810" height="1900" loading="lazy">
+        <span class="gal__cap">درع السماء</span>
+      </button>
+      <button class="gal reveal" data-full="assets/img/thaad.jpg" data-caption="إطلاق صاروخ من منظومة ثاد">
+        <img src="assets/img/thaad.jpg" alt="إطلاق ثاد" width="1500" height="1200" loading="lazy">
+        <span class="gal__cap">طبقة عليا</span>
+      </button>
+      <button class="gal gal--tall reveal" data-full="assets/img/soldier.jpg" data-caption="جندي سعودي في الميدان">
+        <img src="assets/img/soldier.jpg" alt="جندي سعودي" width="1890" height="2840" loading="lazy">
+        <span class="gal__cap">عزيمة الميدان</span>
+      </button>
+      <button class="gal reveal" data-full="assets/img/apache.jpg" data-caption="مروحية أباتشي تابعة للقوات البرية">
+        <img src="assets/img/apache.jpg" alt="أباتشي سعودية" width="800" height="536" loading="lazy">
+        <span class="gal__cap">إسناد ناري</span>
+      </button>
+      <button class="gal gal--wide reveal" data-full="assets/img/f15b.jpg" data-caption="تزويد جوي من طائرة A330 MRTT">
+        <img src="assets/img/f15b.jpg" alt="تزويد جوي" width="1600" height="1068" loading="lazy">
+        <span class="gal__cap">مدى لا ينتهي</span>
+      </button>
+      <button class="gal reveal" data-full="assets/img/typhoon.jpg" data-caption="مقاتلة تايفون سعودية">
+        <img src="assets/img/typhoon.jpg" alt="تايفون" width="1024" height="683" loading="lazy">
+        <span class="gal__cap">تفوّق جوي</span>
+      </button>
+      <button class="gal gal--wide reveal" data-full="assets/img/riyadh.jpg" data-caption="الرياض: عاصمةٌ تنبض بالأمن">
+        <img src="assets/img/riyadh.jpg" alt="أفق مدينة الرياض" width="1600" height="1066" loading="lazy">
+        <span class="gal__cap">وطنٌ آمن</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="cta">
+  <div class="container cta__inner reveal">
+    <p class="eyebrow">اعتزازٌ وامتنان</p>
+    <h2>لرجالٍ <span class="gold-text">حفظوا الوطن</span></h2>
+    <p>تحيةً لكل جنديٍّ سهر على أمننا، وكل شهيدٍ كتب بدمه صفحات المجد.</p>
+    <a href="#top" class="btn btn--gold">العودة إلى الأعلى</a>
+<!-- ===================== SOURCES ===================== -->
+<section class="section sources" id="sources">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="eyebrow">المراجع</p>
+      <h2 class="section__title">المصادر <span class="gold-text">والمنهجية</span></h2>
+      <p class="section__sub">
+        يعتمد السجل على الجهات الرسمية والوكالات المعتمدة، وتُحدَّث الأرقام وفق ما تعلنه الجهات المختصة.
+      </p>
+    </div>
+
+    <div class="sources__grid">
+      <a class="source reveal" href="https://www.mod.gov.sa" target="_blank" rel="noopener">
+        <span class="source__label">وزارة</span>
+        <strong>وزارة الدفاع</strong>
+        <small>mod.gov.sa</small>
+      </a>
+      <a class="source reveal" data-delay="60" href="https://www.sng.gov.sa" target="_blank" rel="noopener">
+        <span class="source__label">وزارة</span>
+        <strong>وزارة الحرس الوطني</strong>
+        <small>sng.gov.sa</small>
+      </a>
+      <a class="source reveal" data-delay="120" href="https://www.spa.gov.sa" target="_blank" rel="noopener">
+        <span class="source__label">وكالة أنباء</span>
+        <strong>وكالة الأنباء السعودية</strong>
+        <small>spa.gov.sa</small>
+      </a>
+      <a class="source reveal" data-delay="180" href="https://ncar.gov.sa" target="_blank" rel="noopener">
+        <span class="source__label">أرشيف وطني</span>
+        <strong>المركز الوطني للوثائق والمحفوظات</strong>
+        <small>ncar.gov.sa</small>
+      </a>
+    </div>
+
+    <div class="sources__note reveal">
+      <p><strong>حقوق الصور:</strong> الصور الفوتوغرافية من Wikimedia Commons وتُستخدم وفق رخص CC BY-SA أو الملكية العامة، ولأغراض التوثيق.</p>
+      <p><strong>آخر تحديث:</strong> 21 أكتوبر 2026 · الإصدار 1.0</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__col footer__about">
+      <a class="brand" href="#top">
+        <img class="brand__crest" src="assets/img/emblem-gold.svg" alt="شعار المملكة العربية السعودية" width="42" height="46">
+        <span class="brand__text"><strong>سجل البطولات</strong><small>المملكة العربية السعودية</small></span>
+      </a>
+      <p>سجلٌ وطني يوثّق إنجازات القوات المسلحة السعودية في الدفاع عن الوطن وأمن المنطقة.</p>
+      <p class="footer__edition">الإصدار 1.0 · 2026</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>السجل</h4>
+      <ul>
+        <li><a href="#about">عن السجل</a></li>
+        <li><a href="#history">المسيرة التاريخية</a></li>
+        <li><a href="#storm">عاصفة الحزم</a></li>
+        <li><a href="#gulf">تحرير الخليج</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>المحتوى</h4>
+      <ul>
+        <li><a href="#defense">حماية الوطن</a></li>
+        <li><a href="#cruise">الإنجاز العالمي</a></li>
+        <li><a href="#fleet">المنظومات والمعدات</a></li>
+        <li><a href="#gallery">معرض الصور</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col footer__credits">
+      <h4>المراجع</h4>
+      <ul>
+        <li><a href="#sources">المصادر والمنهجية</a></li>
+        <li><a href="https://www.mod.gov.sa" target="_blank" rel="noopener">وزارة الدفاع</a></li>
+        <li><a href="https://www.spa.gov.sa" target="_blank" rel="noopener">وكالة الأنباء السعودية</a></li>
+      </ul>
+      <p class="small">حقوق الصور: Wikimedia Commons — رخص CC BY-SA أو ملكية عامة.</p>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <p class="footer__copy">© <span id="year">2026</span> سجل البطولات الوطني — جميع الحقوق محفوظة.</p>
+
+      <div class="credit" aria-label="حقوق التصميم والتطوير">
+        <span class="credit__label">تصميم وتطوير</span>
+        <span class="credit__name" dir="ltr">ABDULAZIZ KHALID</span>
+      </div>
+
+      <p class="footer__motto">الله · الوطن · الملك</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="العودة إلى الأعلى">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة" hidden>
+  <button class="lightbox__close" id="lbClose" aria-label="إغلاق">✕</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="الصورة السابقة">‹</button>
+  <figure class="lightbox__figure">
+    <img id="lbImg" src="" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="الصورة التالية">›</button>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
