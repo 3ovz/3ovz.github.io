@@ -11,6 +11,11 @@
   /* ---------- Intro splash ---------- */
   const intro = $("#intro");
   const introEnter = $("#introEnter");
+  const heroVideo = $("#heroVideo");
+  if (heroVideo) {
+    const p = heroVideo.play();
+    if (p && p.catch) p.catch(() => {});
+  }
   if (intro && introEnter) {
     document.body.classList.add("is-locked");
     let entered = false;
@@ -20,6 +25,11 @@
       intro.classList.add("is-hidden");
       document.body.classList.remove("is-locked");
       window.setTimeout(() => { intro.style.display = "none"; }, 850);
+      if (heroVideo) {
+        heroVideo.muted = false;
+        const p = heroVideo.play();
+        if (p && p.catch) p.catch(() => { heroVideo.muted = true; heroVideo.play().catch(() => {}); });
+      }
       const firstLink = $(".nav__links a");
       if (firstLink) firstLink.focus({ preventScroll: true });
     };
